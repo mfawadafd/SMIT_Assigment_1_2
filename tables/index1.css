@@ -1,0 +1,47 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body{
+  background-color: #020;
+  color: white;
+}
+img{
+  margin: 0px 0px 0px 80px;
+}
+.btn{
+  /* display: inline; */
+  float:right;
+  margin-top: -45px;
+}
+#h4{
+  margin: 0 410px;
+
+
+}
+button, a{
+  background-color: #020;
+  text-decoration: none;
+  color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+main, table{
+
+ border-collapse: collapse;
+}
+th{
+  padding: 15px;
+}
+
+td{
+  padding: 0px 10px;
+  text-align-last: center;
+}
+span{
+  font-weight: bold;
+}
+ div{
+  margin: 0 120px;
+}
