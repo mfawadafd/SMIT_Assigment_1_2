@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+span {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+
+button {
+  border-radius: 5px;
+  background-color: blue;
+  color: aliceblue;
+  cursor: pointer;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+
+.div1 {
+  width: 49%;
+  margin-left: 10px;
+  display: inline-block;
+  margin-top: 90px;
+}
+#p1{
+  width: 67%;
+  text-align-last: center;
+}
+
+.div2 {
+  width: 49%;
+  height: 400px;
+  display: block;
+  float: right;
+}
+
+.iphone {
+  width: 70%;
+  height: 540px;
+  border-radius: 50px;
+}
+
+
+.container2 {
+  width: 100%;
+  height: 500px;
+  background: url(./img/backimg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.div67 {
+  width: 33.3%;
+  display: block;
+  float: right;
+  margin-left: 100px;
+  margin-top: 200px;
+
+}
+
+.div66 {
+  width: 33.3%;
+  display: block;
+  float: right;
+  margin-right: 360px;
+  margin-top: -60px;
+}
+
+.div90 {
+  width: 33.3%;
+  display: block;
+  float: right;
+  margin-right: 260px;
+  margin-top: 200px;
+
+}
+
+
+.container3 {
+  height: 500px;
+  width: 70%;
+}
+
+.div3 {
+  width: 50%;
+  display: block;
+  float: right;
+  margin-top: 150px;
+}
+
+h3 {
+  margin: 0 0 10px 100px;
+  font-family: sans-serif;
+}
+
+.visit {
+  margin: 20px 0 0 130px;
+}
+
+
+
+.container4 {
+  height: 600px;
+  background: url(./img/backimg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.div4 {
+  width: 50%;
+  display: block;
+  float: right;
+  margin-top: 150px;
+  margin-right: 350px;
+  text-align-last: center;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.div5 {
+  border: 2px dotted white;
+  width: 30%;
+  height: 230px;
+  display: inline-block;
+  float: left;
+  margin-left: 220px;
+  margin-top: 40px;
+}
+
+.div6 {
+  border: 2px dotted white;
+  width: 30%;
+  height: 230px;
+  display: inline-block;
+  float: right;
+  margin-right: 300px;
+  margin-top: 40px;
+}
+
+img {
+  width: 100%;
+  height: 230px;
+}
+
+.mypic2 {
+  width: 100%;
+  height: 230px;
+}
+
+figcaption {
+  text-align-last: center;
+  width: 30%;
+  float: left;
+  margin-top: 5px;
+  margin-left: 400px;
+}
+
+
+p {
+  font-family: sans-serif;
+  font-style: normal;
+}

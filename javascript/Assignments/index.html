@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <span><h2>Mini BRT System</h2></span> 
+    </div>
+    <div class="container">
+<table class="table table-bordered">
+  <thead>
+<tr class="footer">
+    <th>$#</th>
+    <th>Travelled Killometer</th>
+    <th>Fare / Passenger</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td> &lt;5KM</td>
+      <td> RS. 15</td>
+    </tr>
+    <tr>
+      <td >2</td>
+      <td> 5.1KM - 10KM</td>
+      <td> RS. 20</td>
+    </tr>
+    <tr>
+      <td >3</td>
+      <td> 10.1KM - 15KM</td>
+      <td> RS. 25</td>
+    </tr>
+    <tr>
+      <td >4</td>
+      <td> 15.1KM - 20KM</td>
+      <td> RS. 30</td>
+    </tr>
+    <tr>
+      <td >5</td>
+      <td>20.1KM - 25KM</td>
+      <td> RS. 35</td>
+    </tr>
+    <tr>
+      <td >6</td>
+      <td> 25.1KM - 30KM</td>
+      <td> RS. 40</td>
+    </tr>
+    <tr>
+      <td >7</td>
+      <td> 30.1KM-35KM</td>
+      <td> RS. 45</td>
+    </tr>
+    <tr>
+      <td >8</td>
+      <td> 35.1KM-40KM</td>
+      <td> RS. 50</td>
+    </tr>
+    <tr>
+      <td >9</td>
+      <td> 40.1KM -50KM</td>
+      <td> RS. 55</td>
+    </tr>
+    <tr class="footer">
+        <td colspan="3">Single Journey Ticket Remain at Rs.50</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- <div class="container"> -->
+ <div class="row">
+  <div class="col-4">
+    <label for="Distenation"><h3>Put Your Distenation :</h3> </label>
+  </div>
+  <div class="col-4"><input type="number" id="Distenation" class="distance form-control" ></div>
+ </div>
+ <div class="row">
+  <div class="d-grid gap-2 col-4 mx-auto">
+    <button class="btn btn-primary" type="button" onclick="brt()">Pay Fee</button>
+  </div>
+ </div>
+ <div class="col-4">
+  <label for=""><h3>Pay your Amount Now:</h3></label>
+ </div>
+ <span><h2 class="pay">paymant</h2></span>
+</div>
+</div>
+</body>
+<script>
+  function brt(){
+    let transport = document.querySelector(".distance").value;
+    // transport = Number(transport);
+    console.log(transport);
+    if(transport <5){
+      document.querySelector(".pay").textContent = "Rs. 0";
+    } else if( transport == 5){
+   document.querySelector(".pay").textContent = "Rs. 15";
+  }else if(transport >= 5.1 && transport <= 10){
+    document.querySelector(".pay").textContent = "Rs. 20";
+  } else if(transport >=10.1 && transport <=15){
+    document.querySelector(".pay").textContent = "Rs. 25";
+  } else if(transport >= 15.1 && transport <= 20){
+    document.querySelector(".pay").textContent = "Rs. 30";
+  } else if(transport >= 20.1 && transport <=25){
+    document.querySelector(".pay").textContent = "Rs. 35";
+  } else if(transport >= 25.1 && transport <=30){
+    document.querySelector(".pay").textContent = "Rs. 40";
+  } else if(transport >= 30.1 && transport <= 35){
+    document.querySelector(".pay").textContent = "Rs. 45";
+  } else if(transport >= 35.1 && transport <= 45){
+    document.querySelector(".pay").textContent = "Rs. 50";
+  } else if(transport >= 45.1 && transport <= 40){
+    document.querySelector(".pay").textContent = "Rs. 55";
+  } else{
+    document.querySelector(".pay").textContent = "Please Enter The valid Numbers in KM";
+  }
+}
+</script>
+</html>

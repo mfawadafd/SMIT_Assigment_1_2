@@ -1,0 +1,20 @@
+*{
+    font-family: sans-serif;
+}
+tr{
+    text-align: center;
+    border: 2px solid black;
+}
+table{
+    outline: 2px solid black;
+}
+.footer{
+    background-color: rgba(74, 231, 74, 0.63);
+    color: white;
+}
+span h2{
+    text-align: center;
+    background-color: rgb(83, 241, 83);
+    color: white;
+    font-family: sans-serif;
+}

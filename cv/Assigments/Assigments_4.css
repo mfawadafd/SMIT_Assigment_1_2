@@ -1,0 +1,180 @@
+* {
+  /* margin: 0; */
+
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 42px;
+  border: 2px solid rebeccapurple;
+  background-color: blueviolet;
+}
+
+#BR {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(168, 58, 58);
+  padding: 0 20px;
+  float: right;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.main {
+  min-height: calc(90vh - 42px);
+  background-image: url(architect.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.BR {
+  text-align: center;
+  color: black;
+  padding-top: 300px;
+}
+
+b {
+  background-color: rgb(9, 8, 8);
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+.img_1 {
+  display: flex;
+  gap: 10px;
+}
+
+.img2 {
+  background-image: url(house2.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+
+}
+
+.img3 {
+  background-image: url(house3.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+
+}
+
+.img4 {
+  background-image: url(house4.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+
+}
+
+.img5 {
+  background-image: url(house5.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+
+}
+
+.img_2 {
+  display: flex;
+  gap: 10px;
+}
+
+.img6 {
+  background-image: url(house2.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+  position: relative;
+  top: 20px;
+}
+
+.img7 {
+  background-image: url(house3.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+  position: relative;
+  top: 20px;
+}
+
+.img8 {
+  background-image: url(house4.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+  position: relative;
+  top: 20px;
+}
+
+.img9 {
+  background-image: url(house5.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+  position: relative;
+  top: 20px;
+}
+
+.img_3 {
+  display: flex;
+  gap: 30px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+}
+
+.Contect {
+  background-color: rgb(26, 50, 42);
+  opacity: 0.25;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.map {
+  min-height: 90vh;
+  background-image: url(map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+footer h3 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: sans-serif;
+}

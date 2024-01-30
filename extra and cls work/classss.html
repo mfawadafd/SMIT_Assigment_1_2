@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(to right,#2e1e4f,#47135e);
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+      .box1 {
+        height: 50px;
+        width: 30px;
+        background-color: aqua;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+      }
+      .player1 {
+        background-color: greenyellow;
+        margin-top: 50px;
+        height: 10vh;
+        padding: 10px;
+        color: black;
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        box-shadow: 0px 4px 32px 20px rgba(00, 00, 00, 0.37);
+        border-radius: 10px 100px / 120px 100px;
+        position:absolute;
+        left: 0px;
+        top: 5px;
+        
+      }
+      .player2 {
+        background-color: greenyellow;
+        margin-top: 50px;
+        height: 10vh;
+        padding: 10px;
+        color: black;
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        box-shadow: 0px 4px 32px 20px rgba(00, 00, 00, 0.37);
+        border-radius: 10px 100px / 120px 100px;
+        position:absolute;
+        right: 0px;
+        top: 5px;
+      }
+      .player3 {
+        background-color: greenyellow;
+        margin-top: 50px;
+        height: 10vh;
+        padding: 10px;
+        color: black;
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        box-shadow: 0px 4px 32px 20px rgba(00, 00, 00, 0.37);
+        border-radius: 10px 100px / 120px 100px;    
+        position:absolute;
+        left: 0px;
+        bottom: 40px;
+      }
+      .player4 {
+        background-color: greenyellow;
+        margin-top: 50px;
+        height: 10vh;
+        padding: 10px;
+        color: black;
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        box-shadow: 0px 4px 32px 20px rgba(00, 00, 00, 0.37);
+        border-radius: 10px 100px / 120px 100px;
+        position:absolute;
+        right: 0px;
+        bottom: 40px;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+        padding: 10px;
+        border: 2px dotted aqua;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 200px;
+        background-color: blueviolet;
+        position: relative;
+
+      }
+      img {
+        border: 2px solid red;
+        height: 20vh;
+        width: 100%;
+        border-radius: 10px 100px / 120px 100px;
+        /* margin-top: 40px; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="col">
+        <div class="row">
+          <div class="box1 box0">1</div>
+          <div class="box1 box2">1</div>
+          <div class="box1 box3">1</div>
+          <div class="box1 box4">1</div>
+          <div class="box1 box5">1</div>
+        </div> -->
+        <div class="main">
+          <img src="mypic2.jpg" alt="" class="images" />
+          <!-- <h1 class="number">7</h1> -->
+          <button onclick="roll()" class="player1">Player One</button>
+          <button onclick="roll()" class="player2">Player Two</button>
+          <button onclick="roll()" class="player3">Player Three</button>
+          <button onclick="roll()" class="player4">Player Four</button>
+        </div>
+      </div>
+    </div>
+    <script src="clock.js"></script>
+  </body>
+</html>

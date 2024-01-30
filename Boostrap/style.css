@@ -1,0 +1,23 @@
+.img-bg{
+  height: 90vh;
+  background-image: url(../cv/Assigments/architect.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.img-bg h1{
+  font-weight: normal;
+}
+.img-bg h1 span{
+  background-color: rgba(0, 0, 0, 0.75);
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+#about-section img{
+  filter: grayscale(0.7);
+}

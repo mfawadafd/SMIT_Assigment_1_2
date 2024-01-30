@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculater</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cal"><span><h1>BMI</h1></span></div>
+        <div class="weights">
+        <label for="inputForWeight">weight</label>
+        <input type="number" id="inputForWeight" class="weight">
+        </div>
+       <div class="heights">
+        <label for="inputForHeight">Height</label>
+        <input type="number" id="inputForHeight" class="height">
+       </div>
+       <div class="buttons">
+        <button onclick="bmiResult()">=</button>
+        <h2 class="result">Result</h2>
+        <p class="bmisay">what your bmi say</p>
+       </div>
+    </div>
+</body>
+<script>
+    function bmiResult(){
+
+        let weight = document.querySelector(".weight").value;
+        let height = document.querySelector(".height").value;
+        weight = Number(weight);
+        height = Number(height);
+        let bmi = weight/(height*height);
+        console.log(bmi);
+        if(weight === 0 && height === 0){
+            alert("Wrong");
+        }
+        // else{
+        //     alert("Please Put the Valid number")
+        // }
+        document.querySelector(".result").textContent = bmi;
+        if(bmi < 18){
+            document.querySelector(".bmisay").textContent = "Underweight";
+        } else if(bmi > 18.5 && bmi < 25){
+            document.querySelector(".bmisay").textContent = "Normal weight";
+        } else {
+            document.querySelector(".bmisay").textContent = "over weight";
+        } 
+    }
+
+   
+</script>
+</html>

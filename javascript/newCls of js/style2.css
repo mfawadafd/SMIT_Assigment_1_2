@@ -1,0 +1,58 @@
+ .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    background-color: rgb(250, 253, 252);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(255, 19, 19, 0.2), 0 6px 20px 0 rgba(255, 3, 3, 0.19);
+    
+    
+}
+h1{
+    box-shadow: 0 4px 8px 0 rgba(239, 29, 29, 0.2), 0 6px 20px 0 rgba(255, 25, 25, 0.19); 
+}
+.weights,input{
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heights{
+    margin-top: 40px;
+    border:none;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input:hover{
+    color: white;
+    background-color: blue;
+}
+button:hover{
+    color: aqua;
+    background-color: black;
+}
+.buttons button, .result, .bmisay{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 45%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.result:hover{
+    color: black;
+    background-color: greenyellow;
+}
+.bmisay:hover{
+    color: black;
+    background-color: yellow;
+}
+
+
+
+

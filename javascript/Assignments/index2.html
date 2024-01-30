@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+               <marquee behavior="alternate" direction="left"><h2>To Do List</h2></marquee> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <input type="text" class="put">
+                <div class="col-6">
+                    <button  onclick="add()">Addfirst</button>
+                    <button onclick="delet()" class="btn">Deletefirst</button>
+                    <button onclick="addfirst()" class="btn">DeleteLast</button>
+                    <button onclick="deletfirst()">Addlast</button>
+                </div>
+               
+                <ul>
+                    <h1 class="text"></h1>
+                </ul>
+            
+            </div>
+        </div>
+        
+    </div>
+   
+</body>
+<script src="script.js"></script>
+   
+
+
+</html>
